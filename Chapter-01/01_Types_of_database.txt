@@ -1,0 +1,12 @@
+Daabases --> Types --> NoSQL DB --> Examples: MongoDB, Firebase, Cassandra
+                   |
+                   --> Relational DB --> SQL Language -->Focus on MySQL
+                                     |
+                                     --> Examples: MySQL, PostgreSQL, Oracle, Microsoft SQL Server
+
+
+MySQL's Strengths:
+    1. Speed and Reliability
+    2. Ease of learning
+    3. Free and open source
+

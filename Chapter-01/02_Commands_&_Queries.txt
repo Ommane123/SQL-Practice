@@ -1,0 +1,36 @@
+:: Command ::
+
+    Data Manipulation:
+
+        1. INSERT INTO
+        2. UPDATE
+        3. DELETE
+
+    Permissions Management:
+
+        1. GRANT
+        2. USE database_name
+
+    Creating Tables:
+
+        1. CREATE TABLE
+        2. Example: New Table
+
+    Modifying Tables:
+
+        1. ALTER TABLE
+        2. Example: Modify Structure
+
+
+
+:: Query ::
+
+    1. Show All Records
+
+    2. Select Specific Columns
+
+    3. Filter Records
+
+    4. Count Records
+
+    5. Calculate Average
