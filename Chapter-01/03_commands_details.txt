@@ -1,0 +1,8 @@
+CREATE DATABASE database_name;
+    --> It creates a batabase table
+
+DROP BATABASE database_name;
+    --> Deletes database
+
+USE database_name;
+    --> Selects database to USE

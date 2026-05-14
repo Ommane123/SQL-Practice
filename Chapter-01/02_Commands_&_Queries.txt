@@ -1,4 +1,4 @@
-:: Command ::
+:: Command :: used to perform actions
 
     Data Manipulation:
 
@@ -23,7 +23,7 @@
 
 
 
-:: Query ::
+:: Query :: used to retrive information
 
     1. Show All Records
 
