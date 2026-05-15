@@ -1,0 +1,74 @@
+:: Data Types ::
+
+:: String DataTypes :
+
+    # CHAR(n) :
+        --> Range   : 0 to 255 characters
+        --> Use     : Fixed-length text (e.g., country codes, status flags)
+        --> Example : 'IN', (India), 'YES', 'GST'
+        --> used    : when we know the fixed size of the variable, element that wll be stored
+
+    # VARCHAR(n) :
+        --> Range   : 0 to 65,535 characters
+        --> Use     : Variable-length text (e.g., names, emails)
+        --> Example : 'om mane', 'ommane456@gmail.com'
+        --> used    : when we don't know the size of the variable that wll be stored
+
+    # TINYTEXT :
+        --> Range   : 0 to 255
+        --> Use     : Short-length text (e.g., somments)
+        --> Example : 'This Diwali sale was amazing'
+        --> used    : To store small texts like comments, descriptions, etc
+
+    # TEXT :
+        --> Range   : 0 to 65,535
+        --> Use     : Medium-length text (e.g., articles, messages)
+        --> Example : a paragraph
+
+    # MEDIUMTEXT :
+        --> Range   : 0 to 16,777,2153
+        --> Use     : Large text storage (e.g., biography, books)
+        --> Example : 'Shivaji Maharaj biography content'
+
+    # LONGTEXT :
+        --> Range   : 0 to 4,294,967,295 characters
+        --> Use     : Very large text (e.g., Wikipedia pages, big reports)
+        --> Example : 'Full Constitution of India content'
+
+    # BLOB :
+        --> Range   : Binary Data
+        --> Use     : Stores images, videos, encrypted files
+        --> Example : Aadhar card scan, PAN card image
+
+:: Int(Numbers) DataTypes :
+    
+    # TINYINT
+    # SMALLINT
+    # MEDIUMINT
+    # INT
+    # BIGINT
+
+    --> Signed Int or range
+        --> goes from negative(-) to positive(+)
+        --> Example : -50 to 50
+
+    --> Unsigned Int or range
+        --> goes only in positive
+        --> Example : 0 to 50
+        --> Advantage : it doubles the range cause range from neg is also converted towards positive
+
+:: Float(Decimal) DataTypes :
+
+    # DECIMAL(m,d)
+        --> Example : decimal(10,2) => 9999999.22
+        --> Exact precision
+        --> It is stored as a string internally that's why it is 100% accurate 
+        --> But very slow for calculation due to being string
+        --> Still Indian banking system used decimal for accuracy
+    # FLOAT(p,s)
+        --> Example : float(7,4) => 123.4567
+        --> Aprox precision
+
+    # DOUBLE(p,s) 
+        --> Example : double(16,8) => 123.45845458
+        --> High precision

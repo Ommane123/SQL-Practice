@@ -1,0 +1,30 @@
+:: Schema ::
+
+    --> Used to efficiently store data
+    --> Blueprint of your database
+        --> Defines tables
+        --> Columns
+        --> Relationship
+
+:: Keys ::
+
+    --> Primary Key:
+        --> Unique ID
+        --> only one in a each table
+    --> Foreign Key:
+        --> Reference ID
+        --> To take info from another table we use foreign Key
+    
+:: Normalization ::
+    
+    --> To organize data inside the database
+    --> No duplication
+    --> Increase Consistant and accurate data
+    --> Storage =  Improve efficient and logical
+    --> Easier Maintainance
+
+    --> To remember for normalization:
+        --> Redundancy
+        --> Dependency
+        --> Primary Key
+        --> Foriegn Key
