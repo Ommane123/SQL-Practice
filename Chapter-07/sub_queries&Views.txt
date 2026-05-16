@@ -1,0 +1,41 @@
+:: Subqueries & Views 1 ::
+
+1. Subqueries :
+
+        1. Nested Queries
+
+        2. Complex Dataa Retrieval
+
+        --> SELECT Product, Amount
+            FROM Sales
+            WHERE Amount > (SELECT AVG(Amount) FROM Sales);
+
+2. Views :
+
+        1. Create View
+
+        2. Simplified Data Access
+
+        --> CREATE VIEW CategorySales AS
+            SELECT Category, SUM(Amount) AS TotalSales
+            FROM Sales
+            GROUP BY Category;
+
+3. CTEs :   common table expression
+            --> it is like a function
+
+        1. with clause
+
+        2. Temporary Data Manipulation
+
+        --> WITH CategoryTotals AS (
+                SELECT Category, SUM(Amount) AS TotalSales
+                FROM Sales
+                GROUP BY Category
+            )
+            SELECT Category, TotalSales
+            FROM CategoryTotals
+            WHERE TotalSales > 1000;
+
+
+

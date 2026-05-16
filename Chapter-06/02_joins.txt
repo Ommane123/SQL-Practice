@@ -1,0 +1,42 @@
+:: Joins ::
+
+    --> used to combine data from 2 or maore tables based on ralated columns(foreign key)
+
+    1. inner join : 
+            --> shows rows that match in both rows
+            --> structure :
+
+                select table_A.column, table_B.column
+                from table A
+                inner join table B on A.common_column = B.common_column
+
+    2. left join :
+            --> shows all rows of left side table and matching rows of the right side table
+            --> structure :
+
+                select table_A.column, table_B.column
+                from table A
+                left join table B on A.common_column = B.common_column
+
+    3. right join :
+            --> shows all rows of right side table and matching rows of the left side table
+            --> structure :
+
+                select table_A.column, table_B.column
+                from table A
+                right join table B on A.common_column = B.common_column
+
+    4. full outer join :
+            --> returns everything from both tables even if it doesn't match
+            --> sql doesn't have outer join command so we use left + union + right 
+            --> structure :
+
+                select table_A.column, table_B.column
+                from table A
+                left join table B on A.common_column = B.common_column
+
+                union
+
+                select table_A.column, table_B.column
+                from table A
+                right join table B on A.common_column = B.common_column
