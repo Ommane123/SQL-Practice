@@ -1,0 +1,18 @@
+:: Data Aggregation and Grouping Concepts ::
+
+1. Aggregate Functions :
+        
+        1. count()  --> how many records?
+        2. sum()    --> sum of numbers
+        3. avg()    --> averages the numbers
+        4. min()    --> gives smallest number
+        5. max()    --> gives largest number
+
+2. Grouping Data :
+
+        1. group by --> groups the data
+
+3. Filtering Data :
+
+        1. having   --> filtering groups after creating those groups
+        2. where    --> 
