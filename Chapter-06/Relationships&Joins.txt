@@ -1,0 +1,16 @@
+:: Relationship ::
+
+    1. one-to-one 
+
+        --> only one row from table a can connect with only one row from table b
+        --> ex. every one has one password 
+
+    2. one-to many
+
+        --> only one row from table a can connect with multiple rows from table b
+        --> ex. one customer user multiple apps
+
+    3. many-to-many
+
+        --> multiple rows from table a can connect with multiple rows from table b
+        --> ex. multiple students can learn multiple languages
