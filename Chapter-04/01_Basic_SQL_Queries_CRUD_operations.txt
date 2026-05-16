@@ -1,0 +1,52 @@
+:: Why? CRUD :
+
+    --> Backbone of the databases
+    --> Queries important in every field
+
+
+:: Terms ::
+
+    1. CRUD :
+        C = Create
+        R = Read
+        U = Update
+        D = Delete
+
+    2. Filtering :
+
+    3. Wildcard :
+
+:: Basics ::
+
+    1. query        --> request to do something
+    2. command      --> instructio to do something
+    3. clause       --> specifies conditions
+    4. filter       --> filtering from data
+    5. sort         --> sorting from data
+    6. condition    --> rule which to follow
+    7. statement    --> a whole sql sequence
+
+:: Filtering :
+
+    1. where        --> says taht i'll provide a condition to work with
+    2. and          --> true when both condition true
+    3. or           --> atleast one condition must be true
+    4. not          --> its is goint to exclude the matching result
+    5. like         --> for pattern matching
+    6. between      --> for rangeses like 1 and 16
+    
+
+:: Sorting :
+
+    1. order by 
+        --> ascending
+        --> descending
+
+    --> select column_name from table_name order by column_name asc/desc
+
+
+:: Update :
+
+    --> UPDATE table_name
+        SET column1= value1, column2 = value2
+        WHERE condition;
